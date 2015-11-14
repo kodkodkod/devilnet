@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f257ea4c-49e8-4f5e-a520-c0ea9453339e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/blank.html" afterPath="$PROJECT_DIR$/.tmp/public/blank.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/blank.html" afterPath="$PROJECT_DIR$/assets/blank.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/buttons.html" afterPath="$PROJECT_DIR$/.tmp/public/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/buttons.html" afterPath="$PROJECT_DIR$/assets/buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/forms.html" afterPath="$PROJECT_DIR$/.tmp/public/forms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/forms.html" afterPath="$PROJECT_DIR$/assets/forms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/grid.html" afterPath="$PROJECT_DIR$/.tmp/public/grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/grid.html" afterPath="$PROJECT_DIR$/assets/grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/icons.html" afterPath="$PROJECT_DIR$/.tmp/public/icons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/icons.html" afterPath="$PROJECT_DIR$/assets/icons.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/auth/login.ejs" afterPath="$PROJECT_DIR$/views/auth/login.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/pricing.html" afterPath="$PROJECT_DIR$/.tmp/public/pricing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/pricing.html" afterPath="$PROJECT_DIR$/assets/pricing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/progress.html" afterPath="$PROJECT_DIR$/.tmp/public/progress.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/progress.html" afterPath="$PROJECT_DIR$/assets/progress.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/auth/register.ejs" afterPath="$PROJECT_DIR$/views/auth/register.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/tables.html" afterPath="$PROJECT_DIR$/.tmp/public/tables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tables.html" afterPath="$PROJECT_DIR$/assets/tables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-private-blank.html" afterPath="$PROJECT_DIR$/.tmp/public/user-private-blank.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-private-blank.html" afterPath="$PROJECT_DIR$/assets/user-private-blank.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-private-messages.html" afterPath="$PROJECT_DIR$/.tmp/public/user-private-messages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-private-messages.html" afterPath="$PROJECT_DIR$/assets/user-private-messages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-private-profile.html" afterPath="$PROJECT_DIR$/.tmp/public/user-private-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-private-profile.html" afterPath="$PROJECT_DIR$/assets/user-private-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-private-timeline.html" afterPath="$PROJECT_DIR$/.tmp/public/user-private-timeline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-private-timeline.html" afterPath="$PROJECT_DIR$/assets/user-private-timeline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-private-users.html" afterPath="$PROJECT_DIR$/.tmp/public/user-private-users.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-private-users.html" afterPath="$PROJECT_DIR$/assets/user-private-users.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-public-blank.html" afterPath="$PROJECT_DIR$/.tmp/public/user-public-blank.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-public-blank.html" afterPath="$PROJECT_DIR$/assets/user-public-blank.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-public-profile.html" afterPath="$PROJECT_DIR$/.tmp/public/user-public-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-public-profile.html" afterPath="$PROJECT_DIR$/assets/user-public-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-public-users.html" afterPath="$PROJECT_DIR$/.tmp/public/user-public-users.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-public-users.html" afterPath="$PROJECT_DIR$/assets/user-public-users.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITREVO.iws" />
@@ -142,11 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/auth/login.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62068963">
+            <state vertical-scroll-proportion="-7.5">
               <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5689655">
+              <caret line="105" column="46" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -159,18 +135,6 @@
               <caret line="262" column="6" selection-start-line="262" selection-start-column="6" selection-end-line="262" selection-end-column="6" />
               <folding>
                 <marker date="1447476061223" expanded="true" signature="0:11459" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tables.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/tables.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.583333">
-              <caret line="718" column="6" selection-start-line="718" selection-start-column="6" selection-end-line="718" selection-end-column="6" />
-              <folding>
-                <marker date="1447476061231" expanded="true" signature="0:27783" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -198,7 +162,6 @@
         <option value="$PROJECT_DIR$/assets/login.html" />
         <option value="$PROJECT_DIR$/views/homepage.ejs" />
         <option value="$PROJECT_DIR$/views/auth/register.ejs" />
-        <option value="$PROJECT_DIR$/views/layout.ejs" />
         <option value="$PROJECT_DIR$/.tmp/public/blank.html" />
         <option value="$PROJECT_DIR$/assets/blank.html" />
         <option value="$PROJECT_DIR$/assets/buttons.html" />
@@ -217,6 +180,7 @@
         <option value="$PROJECT_DIR$/assets/user-public-profile.html" />
         <option value="$PROJECT_DIR$/assets/user-public-users.html" />
         <option value="$PROJECT_DIR$/views/auth/login.ejs" />
+        <option value="$PROJECT_DIR$/views/layout.ejs" />
       </list>
     </option>
   </component>
@@ -488,7 +452,7 @@
       <updated>1447452833078</updated>
       <workItem from="1447452835841" duration="11088000" />
       <workItem from="1447468710358" duration="864000" />
-      <workItem from="1447470353847" duration="4902000" />
+      <workItem from="1447470353847" duration="4967000" />
     </task>
     <task id="LOCAL-00001" summary="login todo">
       <created>1447475094098</created>
@@ -500,7 +464,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16854000" />
+    <option name="totallyTimeSpent" value="16919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="-4" width="1299" height="772" extended-state="6" />
@@ -777,14 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2909093">
-          <caret line="95" column="31" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.tmp/public/blank.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -878,7 +834,7 @@
         <state vertical-scroll-proportion="-10.583333">
           <caret line="718" column="6" selection-start-line="718" selection-start-column="6" selection-end-line="718" selection-end-column="6" />
           <folding>
-            <marker date="1447476061231" expanded="true" signature="0:27783" placeholder="..." />
+            <marker date="1447476061231" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -965,8 +921,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/auth/login.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62068963">
+        <state vertical-scroll-proportion="-7.5">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5689655">
+          <caret line="105" column="46" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
           <folding />
         </state>
       </provider>
