@@ -2,86 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f257ea4c-49e8-4f5e-a520-c0ea9453339e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/AdminController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/AmbroziaController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/AuthController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/CategoryController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/DangerController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/MusorkaController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/OrderController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/TemperatureController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/ZavodController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Ambrozia.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Danger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Musorka.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Order.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Passport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/User.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Zavod.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/policies/bearerAuth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/policies/passport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/policies/sessionAuth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/responses/badRequest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/responses/forbidden.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/responses/notFound.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/responses/ok.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/responses/serverError.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/CategoryService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/CommonHandlerService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/DB/DBFind.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/DB/DB_Writer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/DBCreate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/GeoService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/MathService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/WeatherService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/geo/ambrozia.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/geo/geojson.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/geo/musorka.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/geo/zavod.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/passport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/bearer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/cas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/local.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/oauth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/oauth2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/openid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/auth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/blueprints.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/connections.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/cors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/csrf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/env/development.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/env/production.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/globals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/http.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/i18n.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/local.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/_README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/de.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/en.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/es.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/fr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/log.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/models.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/passport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/permissions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/policies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/routes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/session.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/sockets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/views.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sailsrc" afterPath="$PROJECT_DIR$/.sailsrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/controllers/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/models/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/CategoryService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/CommonHandlerService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/DBCreate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/DB/DBFind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/DB/DB_Writer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/GeoService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/MathService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/WeatherService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/_README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/geo/ambrozia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/responses/badRequest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/protocols/bearer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/policies/bearerAuth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/blueprints.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/protocols/cas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/connections.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/cors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/csrf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/de.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/env/development.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/es.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/footer.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/responses/forbidden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/fr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/geo/geojson.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/globals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/http.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/i18n.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/protocols/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/protocols/local.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/models.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/geo/musorka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/responses/notFound.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/protocols/oauth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/protocols/oauth2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/responses/ok.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/protocols/openid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/policies/passport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/passport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/passport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/policies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/env/production.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/products.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/responses/serverError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/session.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/policies/sessionAuth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/sockets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/views.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/services/geo/zavod.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/chat.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/leftSidebar.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/navbarHeader.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/rightSidebar.ejs" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.ejs" afterPath="$PROJECT_DIR$/views/header.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITREVO.iws" />
@@ -133,11 +115,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1870503">
-              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+            <state vertical-scroll-proportion="-1.981132">
+              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/footer.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.125">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="23.75">
+              <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+              <folding>
+                <marker date="1447507512615" expanded="true" signature="2223:2268" placeholder="..." />
+                <marker date="1447507512615" expanded="true" signature="2249:2268" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/products.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.332061">
+              <caret line="168" column="14" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/header.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.583333">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -147,6 +172,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -184,25 +214,34 @@
         <option value="$PROJECT_DIR$/tasks/pipeline.js" />
         <option value="$PROJECT_DIR$/views/leftSidebar.ejs" />
         <option value="$PROJECT_DIR$/views/rightSidebar.ejs" />
-        <option value="$PROJECT_DIR$/views/header.ejs" />
         <option value="$PROJECT_DIR$/views/chat.ejs" />
         <option value="$PROJECT_DIR$/views/auth/navbarHeader.ejs" />
         <option value="$PROJECT_DIR$/views/homepage.ejs" />
         <option value="$PROJECT_DIR$/views/navbarHeader.ejs" />
         <option value="$PROJECT_DIR$/config/passport.js" />
         <option value="$PROJECT_DIR$/views/auth/login.ejs" />
-        <option value="$PROJECT_DIR$/views/layout.ejs" />
         <option value="$PROJECT_DIR$/config/auth.js" />
         <option value="$PROJECT_DIR$/.sailsrc" />
         <option value="$PROJECT_DIR$/config/policies.js" />
         <option value="$PROJECT_DIR$/config/local.js" />
         <option value="$PROJECT_DIR$/config/bootstrap.js" />
+        <option value="$PROJECT_DIR$/views/header.ejs" />
+        <option value="$PROJECT_DIR$/views/footer.ejs" />
+        <option value="$PROJECT_DIR$/views/layout.ejs" />
+        <option value="$PROJECT_DIR$/views/products.ejs" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="NamedScopeManager">
     <order />
@@ -211,7 +250,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="67" />
     <option name="y" value="24" />
-    <option name="width" value="1079" />
+    <option name="width" value="650" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -267,7 +306,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITREVO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devilnet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITREVO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devilnet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -609,7 +684,7 @@
       <updated>1447452833078</updated>
       <workItem from="1447452835841" duration="11088000" />
       <workItem from="1447468710358" duration="864000" />
-      <workItem from="1447470353847" duration="14134000" />
+      <workItem from="1447470353847" duration="14413000" />
     </task>
     <task id="LOCAL-00001" summary="login todo">
       <created>1447475094098</created>
@@ -623,14 +698,20 @@
       <option name="project" value="LOCAL" />
       <updated>1447501015807</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="login todo">
+      <created>1447507368563</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1447507368564</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26086000" />
+    <option name="totallyTimeSpent" value="26365000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="24" width="1079" height="744" extended-state="4" />
+    <frame x="67" y="24" width="650" height="744" extended-state="4" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -643,10 +724,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39123103" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44519392" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4084507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44366196" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40077445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.68543047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3188406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -924,26 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/chat.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
-          <folding>
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/user-public-users.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-129.0">
@@ -960,26 +1021,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/rightSidebar.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/500.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.550264">
           <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/navbarHeader.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -992,26 +1037,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/leftSidebar.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-75.625">
-          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/auth/login.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1058,8 +1087,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1870503">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+        <state vertical-scroll-proportion="-1.981132">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.583333">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="23.75">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding>
+            <marker date="1447507512615" expanded="true" signature="2223:2268" placeholder="..." />
+            <marker date="1447507512615" expanded="true" signature="2249:2268" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/products.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.332061">
+          <caret line="168" column="14" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="14" />
           <folding />
         </state>
       </provider>

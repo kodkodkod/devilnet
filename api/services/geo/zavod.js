@@ -1,0 +1,38 @@
+var radius = 250;
+var kmlUrl = 'maps/data/zavod.kml';
+module.exports = function(cb){
+    var tj = require('togeojson');
+    var fs = require('fs');
+    var jsdom = require('jsdom').jsdom;
+
+    async.waterfall(
+        [
+            function(cb){
+                fs.readFile(kmlUrl, 'utf8', cb);
+            },
+            function(file, cb){
+                var kml = jsdom(file);
+                cb(null, kml);
+            },
+            function(kml, cb){
+                var converted = tj.kml(kml);
+                var converted_with_styles = tj.kml(kml, { styles: true });
+                cb(null, converted_with_styles);
+            },
+            function(result, cb){
+                var arr = [];
+                result.features.forEach(function(item, index){
+                    item.geometry.coordinates.pop();
+                    item.radius = radius;
+                    arr.push(item);
+                    if (result.features.length - 1 == index){
+                        cb(null, arr);
+                    }
+                });
+            }
+        ],
+        function(err, data){
+            cb(err, data);
+        }
+    )
+}
