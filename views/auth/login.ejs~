@@ -4,7 +4,11 @@
   <% }) %>
 <% } %>
 
-
+<form role="form" action="/auth/local" method="post">
+  <input type="text" name="identifier" placeholder="Username or Email">
+  <input type="password" name="password" placeholder="Password">
+  <button type="submit">Sign in</button>
+</form>
 
 <% if (Object.keys(providers).length) {%>
   <h4>You can also use one of these...</h4>
@@ -23,16 +27,10 @@
         <div class="panel panel-default text-center">
           <img src="images/people/110/guy-5.jpg" class="img-circle">
           <div class="panel-body">
-            <form role="form" action="/auth/local" method="post">
-              <input type="text" name="identifier" placeholder="Username or Email">
-              <input type="password" name="password" placeholder="Password">
-              <button type="submit">Sign in</button>
-            </form>
-
-            <!--<input class="form-control" type="text" placeholder="Username">
+            <input class="form-control" type="text" placeholder="Username">
             <input class="form-control" type="password" placeholder="Enter Password">
             <a href="index.html" class="btn btn-primary">Login <i class="fa fa-fw fa-unlock-alt"></i></a>
-            <a href="#" class="forgot-password">Forgot password?</a>-->
+            <a href="#" class="forgot-password">Forgot password?</a>
           </div>
         </div>
       </div>
