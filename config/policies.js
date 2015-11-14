@@ -18,18 +18,22 @@
 
 
 module.exports.policies = {
+    '*': [
+        'basicAuth',
+        'passport',
+        'sessionAuth',
+        'ModelPolicy',
+        'AuditPolicy',
+        'OwnerPolicy',
+        'PermissionPolicy',
+        'RolePolicy',
+        'CriteriaPolicy'
+    ],
 
-    /***************************************************************************
-     *                                                                          *
-     * Default policy for all controllers and actions (`true` allows public     *
-     * access)                                                                  *
-     *                                                                          *
-     ***************************************************************************/
-    //'*': ['passport', 'sessionAuth'],
-    //
-    //'auth': {
-    //    '*': ['passport']
-    //}
+    AuthController: {
+        '*': [ 'passport' ]
+    }
+
 
     // '*': true,
 

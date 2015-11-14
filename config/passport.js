@@ -19,61 +19,62 @@ module.exports.passport = {
         strategy: require('passport-local').Strategy
     },
 
-    bearer: {
-        strategy: require('passport-http-bearer').Strategy
+    basic: {
+        strategy: require('passport-http').BasicStrategy,
+        protocol: 'basic'
     },
-
-    twitter: {
-        name: 'Twitter',
-        protocol: 'oauth',
-        strategy: require('passport-twitter').Strategy,
-        options: {
-            consumerKey: 'your-consumer-key',
-            consumerSecret: 'your-consumer-secret'
-        }
-    },
-
-    github: {
-        name: 'GitHub',
-        protocol: 'oauth2',
-        strategy: require('passport-github').Strategy,
-        options: {
-            clientID: 'your-client-id',
-            clientSecret: 'your-client-secret'
-        }
-    },
-
-    facebook: {
-        name: 'Facebook',
-        protocol: 'oauth2',
-        strategy: require('passport-facebook').Strategy,
-        options: {
-            clientID: 'your-client-id',
-            clientSecret: 'your-client-secret',
-            scope: ['email'] /* email is necessary for login behavior */
-        }
-    },
-
-    google: {
-        name: 'Google',
-        protocol: 'oauth2',
-        strategy: require('passport-google-oauth').OAuth2Strategy,
-        options: {
-            clientID: '727823577680-g8upv2ug2m8lg12pir0ejn2fd5grngri.apps.googleusercontent.com',
-            clientSecret: 'SBL-CNVxJZfX6aA9jwUduzuK',
-            callbackURL: 'http://localhost:1337/auth/google/callback/',
-            scope: ['email','profile']
-        }
-    },
-
-    cas: {
-        name: 'CAS',
-        protocol: 'cas',
-        strategy: require('passport-cas').Strategy,
-        options: {
-            ssoBaseURL: 'http://your-cas-url',
-            serverBaseURL: 'http://localhost:1337',
-            serviceURL: 'http://localhost:1337/auth/cas/callback'
-        }
-    }
+    //
+    //twitter: {
+    //    name: 'Twitter',
+    //    protocol: 'oauth',
+    //    strategy: require('passport-twitter').Strategy,
+    //    options: {
+    //        consumerKey: 'your-consumer-key',
+    //        consumerSecret: 'your-consumer-secret'
+    //    }
+    //},
+    //
+    //github: {
+    //    name: 'GitHub',
+    //    protocol: 'oauth2',
+    //    strategy: require('passport-github').Strategy,
+    //    options: {
+    //        clientID: 'your-client-id',
+    //        clientSecret: 'your-client-secret'
+    //    }
+    //},
+    //
+    //facebook: {
+    //    name: 'Facebook',
+    //    protocol: 'oauth2',
+    //    strategy: require('passport-facebook').Strategy,
+    //    options: {
+    //        clientID: 'your-client-id',
+    //        clientSecret: 'your-client-secret',
+    //        scope: ['email'] /* email is necessary for login behavior */
+    //    }
+    //},
+    //
+    //google: {
+    //    name: 'Google',
+    //    protocol: 'oauth2',
+    //    strategy: require('passport-google-oauth').OAuth2Strategy,
+    //    options: {
+    //        clientID: '727823577680-g8upv2ug2m8lg12pir0ejn2fd5grngri.apps.googleusercontent.com',
+    //        clientSecret: 'SBL-CNVxJZfX6aA9jwUduzuK',
+    //        callbackURL: 'http://localhost:1337/auth/google/callback/',
+    //        scope: ['email','profile']
+    //    }
+    //},
+    //
+    //cas: {
+    //    name: 'CAS',
+    //    protocol: 'cas',
+    //    strategy: require('passport-cas').Strategy,
+    //    options: {
+    //        ssoBaseURL: 'http://your-cas-url',
+    //        serverBaseURL: 'http://localhost:1337',
+    //        serviceURL: 'http://localhost:1337/auth/cas/callback'
+    //    }
+    //}
 };

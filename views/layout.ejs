@@ -47,7 +47,29 @@
   </head>
 
   <body>
-    <%- body %>
+  <div class="container-error">
+      <% if (errors) {%>
+          <% errors.forEach(function (error) { %>
+             <%= __(error) %>
+          <% }) %>
+      <% } %>
+  </div>
+
+
+  <div class="container-block">
+      <%- partial('header') %>
+      <%- partial('leftSidebar') %>
+      <%- partial('rightSidebar') %>
+      <%- partial('chat') %>
+      <div id="content">
+          <%- partial('navbarHeader') %>
+          <div class="container-fluid">
+              <%- body %>
+          </div>
+      </div>
+  </div>
+
+
 
 
 
