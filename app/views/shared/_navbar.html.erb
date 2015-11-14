@@ -11,6 +11,7 @@
     </div>
     <div class="collapse navbar-collapse" id="navbar-top">
       <ul class="nav navbar-nav navbar-right">
+        <li> <%= link_to('E-Commerce', '//192.168.88.249/product') %></li>
         <% if user_signed_in? %>
           <li><%= link_to(current_user.name, user_path(current_user)) %></li>
           <li><%= link_to('Sign out', destroy_user_session_path, method: :delete) %></li>
