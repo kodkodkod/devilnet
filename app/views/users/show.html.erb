@@ -20,9 +20,9 @@
     <% if is_current_user?(@user) %>
       <div class="well">
         <ul class="nav nav-pills nav-stacked">
-          <li><%= link_to 'Edit Zombfile', edit_user_path(@user) %></li>
+          <li><%= link_to 'Edit Profile', edit_user_path(@user) %></li>
           <li><%= link_to 'Change password', edit_user_registration_path %></li>
-          <li><%= link_to 'Zombies', friends_user_path(@user) %></li>
+          <li><%= link_to 'Friends', friends_user_path(@user) %></li>
           <li><%= link_to 'Followers', followers_user_path(@user) %></li>
           <li><%= link_to 'Deactivate', deactivate_user_path(@user) %></li>
         </ul>

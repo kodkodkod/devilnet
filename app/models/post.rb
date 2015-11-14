@@ -1,5 +1,5 @@
 # Copyright (c) 2015, @sudharti(Sudharsanan Muralidharan)
-# deadkontakt is an Open source Social network written in Ruby on Rails This file is licensed
+# Socify is an Open source Social network written in Ruby on Rails This file is licensed
 # under GNU GPL v2 or later. See the LICENSE.
 
 class Post < ActiveRecord::Base
