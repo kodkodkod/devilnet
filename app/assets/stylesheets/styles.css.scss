@@ -3,7 +3,13 @@
 
 body {
   padding-top: 100px;
-  background: $bg-color;
+  background: repeating-linear-gradient(
+                  45deg,
+                  #bc5a00,
+                  #bc00a2 10px,
+                  #020305 10px,
+                  #020305 20px
+  );
   font-family: 'Noto Sans', sans-serif;
 }
 
