@@ -2,24 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f257ea4c-49e8-4f5e-a520-c0ea9453339e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sailsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/auth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/chat.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/header.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/leftSidebar.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/navbarHeader.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/permissions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/rightSidebar.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/images/profile-cover.jpg" afterPath="$PROJECT_DIR$/.tmp/public/images/profile-cover.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/profile-cover.jpg" afterPath="$PROJECT_DIR$/assets/images/profile-cover.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/bootstrap.js" afterPath="$PROJECT_DIR$/config/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/homepage.ejs" afterPath="$PROJECT_DIR$/views/homepage.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/local.js" afterPath="$PROJECT_DIR$/config/local.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/auth/login.ejs" afterPath="$PROJECT_DIR$/views/auth/login.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/AdminController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/AmbroziaController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/AuthController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/CategoryController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/DangerController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/MusorkaController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/OrderController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/TemperatureController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/controllers/ZavodController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Ambrozia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Category.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Danger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Musorka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Order.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Passport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/User.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/models/Zavod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/policies/bearerAuth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/policies/passport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/policies/sessionAuth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/responses/badRequest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/responses/forbidden.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/responses/notFound.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/responses/ok.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/responses/serverError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/CategoryService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/CommonHandlerService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/DB/DBFind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/DB/DB_Writer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/DBCreate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/GeoService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/MathService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/WeatherService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/geo/ambrozia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/geo/geojson.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/geo/musorka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/geo/zavod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/passport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/bearer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/cas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/local.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/oauth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/oauth2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/services/protocols/openid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/auth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/blueprints.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/connections.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/cors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/csrf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/env/development.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/env/production.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/globals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/http.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/i18n.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/local.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/_README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/de.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/es.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/fr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/models.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/passport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/permissions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/policies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/routes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/session.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/sockets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/views.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sailsrc" afterPath="$PROJECT_DIR$/.sailsrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/passport.js" afterPath="$PROJECT_DIR$/config/passport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/policies.js" afterPath="$PROJECT_DIR$/config/policies.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITREVO.iws" />
@@ -41,101 +103,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.js">
+      <file leaf-file-name="pipeline.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/pipeline.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/controllers/AuthController.js">
+      <file leaf-file-name=".bowerrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.bowerrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.419355">
-              <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="permissions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/permissions.js">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="permissions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/sails-permissions/config/permissions.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/auth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/bootstrap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57194245">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="passport.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/passport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="policies.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/policies.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/local.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".sailsrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.sailsrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state vertical-scroll-proportion="1.1870503">
+              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -207,10 +209,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="424" />
-    <option name="y" value="52" />
-    <option name="width" value="942" />
-    <option name="height" value="716" />
+    <option name="x" value="67" />
+    <option name="y" value="24" />
+    <option name="width" value="1079" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -265,7 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,7 +284,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ecosoft_api" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -290,11 +292,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/myapp/node_modules" />
       <recent name="$PROJECT_DIR$/myapp" />
-      <recent name="$PROJECT_DIR$/myapp/api" />
     </key>
     <key name="OPEN_URL_DIALOG">
       <recent name="http://192.168.88.249:1337/" />
@@ -607,7 +609,7 @@
       <updated>1447452833078</updated>
       <workItem from="1447452835841" duration="11088000" />
       <workItem from="1447468710358" duration="864000" />
-      <workItem from="1447470353847" duration="12092000" />
+      <workItem from="1447470353847" duration="14134000" />
     </task>
     <task id="LOCAL-00001" summary="login todo">
       <created>1447475094098</created>
@@ -615,14 +617,20 @@
       <option name="project" value="LOCAL" />
       <updated>1447475094098</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="login todo">
+      <created>1447501015807</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1447501015807</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24044000" />
+    <option name="totallyTimeSpent" value="26086000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="424" y="52" width="942" height="716" extended-state="0" />
+    <frame x="67" y="24" width="1079" height="744" extended-state="4" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -635,10 +643,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42962962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44605476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39123103" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44519392" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40077445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3188406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -708,28 +716,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/homepage.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dump.rdb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/connections.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/dashboard.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.625">
@@ -737,33 +723,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/services/CategoryService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25167784">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8333335">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="http://192.168.88.249:1337/">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5328597">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/auth/register.ejs">
@@ -874,14 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/user-public-blank.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.995772">
@@ -967,14 +921,6 @@
             <element signature="n#div#2;n#!!top" expanded="false" />
             <element signature="n#script#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/pipeline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27918783">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,82 +1016,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.js">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.712231">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/pipeline.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/passport.js">
+    <entry file="file://$PROJECT_DIR$/dump.rdb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.sailsrc">
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/AuthController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.419355">
-          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/permissions.js">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/sails-permissions/config/permissions.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/policies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/local.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57194245">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state vertical-scroll-proportion="1.1870503">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
           <folding />
         </state>
       </provider>
