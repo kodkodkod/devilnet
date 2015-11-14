@@ -2,12 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f257ea4c-49e8-4f5e-a520-c0ea9453339e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/public/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/login.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/homepage.ejs" afterPath="$PROJECT_DIR$/views/homepage.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/blank.html" afterPath="$PROJECT_DIR$/.tmp/public/blank.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/blank.html" afterPath="$PROJECT_DIR$/assets/blank.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/buttons.html" afterPath="$PROJECT_DIR$/.tmp/public/buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/buttons.html" afterPath="$PROJECT_DIR$/assets/buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/forms.html" afterPath="$PROJECT_DIR$/.tmp/public/forms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/forms.html" afterPath="$PROJECT_DIR$/assets/forms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/grid.html" afterPath="$PROJECT_DIR$/.tmp/public/grid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/grid.html" afterPath="$PROJECT_DIR$/assets/grid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/icons.html" afterPath="$PROJECT_DIR$/.tmp/public/icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/icons.html" afterPath="$PROJECT_DIR$/assets/icons.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/auth/login.ejs" afterPath="$PROJECT_DIR$/views/auth/login.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/pricing.html" afterPath="$PROJECT_DIR$/.tmp/public/pricing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/pricing.html" afterPath="$PROJECT_DIR$/assets/pricing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/progress.html" afterPath="$PROJECT_DIR$/.tmp/public/progress.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/progress.html" afterPath="$PROJECT_DIR$/assets/progress.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/auth/register.ejs" afterPath="$PROJECT_DIR$/views/auth/register.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/tables.html" afterPath="$PROJECT_DIR$/.tmp/public/tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tables.html" afterPath="$PROJECT_DIR$/assets/tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-private-blank.html" afterPath="$PROJECT_DIR$/.tmp/public/user-private-blank.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-private-blank.html" afterPath="$PROJECT_DIR$/assets/user-private-blank.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-private-messages.html" afterPath="$PROJECT_DIR$/.tmp/public/user-private-messages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-private-messages.html" afterPath="$PROJECT_DIR$/assets/user-private-messages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-private-profile.html" afterPath="$PROJECT_DIR$/.tmp/public/user-private-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-private-profile.html" afterPath="$PROJECT_DIR$/assets/user-private-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-private-timeline.html" afterPath="$PROJECT_DIR$/.tmp/public/user-private-timeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-private-timeline.html" afterPath="$PROJECT_DIR$/assets/user-private-timeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-private-users.html" afterPath="$PROJECT_DIR$/.tmp/public/user-private-users.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-private-users.html" afterPath="$PROJECT_DIR$/assets/user-private-users.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-public-blank.html" afterPath="$PROJECT_DIR$/.tmp/public/user-public-blank.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-public-blank.html" afterPath="$PROJECT_DIR$/assets/user-public-blank.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-public-profile.html" afterPath="$PROJECT_DIR$/.tmp/public/user-public-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-public-profile.html" afterPath="$PROJECT_DIR$/assets/user-public-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/public/user-public-users.html" afterPath="$PROJECT_DIR$/.tmp/public/user-public-users.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/user-public-users.html" afterPath="$PROJECT_DIR$/assets/user-public-users.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITREVO.iws" />
@@ -29,62 +58,120 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.js">
+      <file leaf-file-name="user-private-messages.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/user-private-messages.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state vertical-scroll-proportion="-9.958333">
+              <caret line="472" column="6" selection-start-line="472" selection-start-column="6" selection-end-line="472" selection-end-column="6" />
+              <folding>
+                <marker date="1447476061235" expanded="true" signature="0:22550" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-private-profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/user-private-profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.583333">
+              <caret line="474" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user-private-timeline.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/user-private-timeline.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.958333">
+              <caret line="910" column="6" selection-start-line="910" selection-start-column="6" selection-end-line="910" selection-end-column="6" />
+              <folding>
+                <marker date="1447476078275" expanded="true" signature="10235:69049" placeholder="..." />
+                <marker date="1447476078275" expanded="true" signature="11440:69047" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-private-users.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/user-private-users.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.958333">
+              <caret line="446" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="448" selection-end-column="0" />
+              <folding>
+                <marker date="1447476081059" expanded="true" signature="10241:20877" placeholder="..." />
+                <marker date="1447476081059" expanded="true" signature="11431:20875" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-public-blank.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/user-public-blank.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.333333">
+              <caret line="364" column="10" selection-start-line="364" selection-start-column="10" selection-end-line="364" selection-end-column="10" />
+              <folding>
+                <marker date="1447476105043" expanded="true" signature="14489:16184" placeholder="..." />
+                <marker date="1447476105043" expanded="true" signature="15944:16182" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-public-profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/user-public-profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.958333">
+              <caret line="589" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="591" selection-end-column="0" />
+              <folding>
+                <marker date="1447476105059" expanded="true" signature="14504:29387" placeholder="..." />
+                <marker date="1447476105059" expanded="true" signature="15974:29385" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-public-users.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/user-public-users.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.625">
+              <caret line="551" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="553" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/auth/login.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.62068963">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="user-private-blank.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/user-private-blank.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.8333335">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding />
+            <state vertical-scroll-proportion="-9.958333">
+              <caret line="262" column="6" selection-start-line="262" selection-start-column="6" selection-end-line="262" selection-end-column="6" />
+              <folding>
+                <marker date="1447476061223" expanded="true" signature="0:11459" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/auth/register.ejs">
+      <file leaf-file-name="tables.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/tables.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homepage.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/homepage.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.708334">
-              <caret line="982" column="0" selection-start-line="982" selection-start-column="0" selection-end-line="982" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/layout.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3728814">
-              <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
-              <folding />
+            <state vertical-scroll-proportion="-10.583333">
+              <caret line="718" column="6" selection-start-line="718" selection-start-column="6" selection-end-line="718" selection-end-column="6" />
+              <folding>
+                <marker date="1447476061231" expanded="true" signature="0:27783" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,9 +196,27 @@
         <option value="$PROJECT_DIR$/api/controllers/AuthController.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/login.html" />
-        <option value="$PROJECT_DIR$/views/auth/login.ejs" />
         <option value="$PROJECT_DIR$/views/homepage.ejs" />
+        <option value="$PROJECT_DIR$/views/auth/register.ejs" />
         <option value="$PROJECT_DIR$/views/layout.ejs" />
+        <option value="$PROJECT_DIR$/.tmp/public/blank.html" />
+        <option value="$PROJECT_DIR$/assets/blank.html" />
+        <option value="$PROJECT_DIR$/assets/buttons.html" />
+        <option value="$PROJECT_DIR$/assets/forms.html" />
+        <option value="$PROJECT_DIR$/assets/grid.html" />
+        <option value="$PROJECT_DIR$/assets/icons.html" />
+        <option value="$PROJECT_DIR$/assets/pricing.html" />
+        <option value="$PROJECT_DIR$/assets/progress.html" />
+        <option value="$PROJECT_DIR$/assets/tables.html" />
+        <option value="$PROJECT_DIR$/assets/user-private-blank.html" />
+        <option value="$PROJECT_DIR$/assets/user-private-messages.html" />
+        <option value="$PROJECT_DIR$/assets/user-private-profile.html" />
+        <option value="$PROJECT_DIR$/assets/user-private-timeline.html" />
+        <option value="$PROJECT_DIR$/assets/user-private-users.html" />
+        <option value="$PROJECT_DIR$/assets/user-public-blank.html" />
+        <option value="$PROJECT_DIR$/assets/user-public-profile.html" />
+        <option value="$PROJECT_DIR$/assets/user-public-users.html" />
+        <option value="$PROJECT_DIR$/views/auth/login.ejs" />
       </list>
     </option>
   </component>
@@ -383,31 +488,40 @@
       <updated>1447452833078</updated>
       <workItem from="1447452835841" duration="11088000" />
       <workItem from="1447468710358" duration="864000" />
-      <workItem from="1447470353847" duration="3745000" />
+      <workItem from="1447470353847" duration="4902000" />
     </task>
+    <task id="LOCAL-00001" summary="login todo">
+      <created>1447475094098</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1447475094098</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15697000" />
+    <option name="totallyTimeSpent" value="16854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="-4" width="1299" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TagMyCode" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31400967" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.62801933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44605476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62801933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44605476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35035914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23064645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35909823" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -419,7 +533,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35915494" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -450,8 +563,22 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="login todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="login todo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -581,14 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/auth/register.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/pipeline.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.55950266">
@@ -642,18 +761,212 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/auth/login.ejs">
+    <entry file="file://$PROJECT_DIR$/views/auth/register.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3728814">
-          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+        <state vertical-scroll-proportion="-4.2909093">
+          <caret line="95" column="31" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.tmp/public/blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1447476128579" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.tmp/public/user-public-users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0833335">
+          <caret line="574" column="12" selection-start-line="574" selection-start-column="12" selection-end-line="574" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.583333">
+          <caret line="158" column="10" selection-start-line="158" selection-start-column="10" selection-end-line="158" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/buttons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.958333">
+          <caret line="297" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+          <folding>
+            <marker date="1447476017091" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/forms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.958333">
+          <caret line="301" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
+          <folding>
+            <marker date="1447476017123" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.583333">
+          <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+          <folding>
+            <marker date="1447476017179" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.958333">
+          <caret line="3311" column="6" selection-start-line="3311" selection-start-column="6" selection-end-line="3311" selection-end-column="6" />
+          <folding>
+            <marker date="1447476017155" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447476017155" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447476017155" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.583333">
+          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+          <folding>
+            <marker date="1447476017167" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/progress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.958333">
+          <caret line="226" column="6" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
+          <folding>
+            <marker date="1447476028499" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.583333">
+          <caret line="718" column="6" selection-start-line="718" selection-start-column="6" selection-end-line="718" selection-end-column="6" />
+          <folding>
+            <marker date="1447476061231" expanded="true" signature="0:27783" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/user-private-blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.958333">
+          <caret line="262" column="6" selection-start-line="262" selection-start-column="6" selection-end-line="262" selection-end-column="6" />
+          <folding>
+            <marker date="1447476061223" expanded="true" signature="0:11459" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/user-private-messages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.958333">
+          <caret line="472" column="6" selection-start-line="472" selection-start-column="6" selection-end-line="472" selection-end-column="6" />
+          <folding>
+            <marker date="1447476061235" expanded="true" signature="0:22550" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/user-private-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.583333">
+          <caret line="474" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/user-private-timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.958333">
+          <caret line="910" column="6" selection-start-line="910" selection-start-column="6" selection-end-line="910" selection-end-column="6" />
+          <folding>
+            <marker date="1447476078275" expanded="true" signature="10235:69049" placeholder="..." />
+            <marker date="1447476078275" expanded="true" signature="11440:69047" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/user-private-users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.958333">
+          <caret line="446" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="448" selection-end-column="0" />
+          <folding>
+            <marker date="1447476081059" expanded="true" signature="10241:20877" placeholder="..." />
+            <marker date="1447476081059" expanded="true" signature="11431:20875" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/user-public-blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="364" column="10" selection-start-line="364" selection-start-column="10" selection-end-line="364" selection-end-column="10" />
+          <folding>
+            <marker date="1447476105043" expanded="true" signature="14489:16184" placeholder="..." />
+            <marker date="1447476105043" expanded="true" signature="15944:16182" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/user-public-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.958333">
+          <caret line="589" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="591" selection-end-column="0" />
+          <folding>
+            <marker date="1447476105059" expanded="true" signature="14504:29387" placeholder="..." />
+            <marker date="1447476105059" expanded="true" signature="15974:29385" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/user-public-users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.625">
+          <caret line="551" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="553" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/auth/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62068963">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
         </state>
       </provider>
