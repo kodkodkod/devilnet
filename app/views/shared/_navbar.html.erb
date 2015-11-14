@@ -7,15 +7,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to "Socify", root_url, class: "navbar-brand" %>
+      <%= link_to "Credhol", root_url, class: "navbar-brand" %>
     </div>
     <div class="collapse navbar-collapse" id="navbar-top">
       <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to 'Shop', '//192.168.88.249' %></li>
         <% if user_signed_in? %>
           <li><%= link_to(current_user.name, user_path(current_user)) %></li>
           <li><%= link_to('Sign out', destroy_user_session_path, method: :delete) %></li>
         <% else %>
           <li><%= link_to 'About', about_path %></li>
+
           <li><%= link_to 'Sign up', new_user_registration_path %></li>
           <li><%= link_to 'Sign in', user_session_path %></li>
         <% end %>
