@@ -47,14 +47,6 @@
   </head>
 
   <body>
-  <div class="container-error">
-      <% if (errors) {%>
-          <% errors.forEach(function (error) { %>
-             <%= __(error) %>
-          <% }) %>
-      <% } %>
-  </div>
-
 
   <%- partial('header') %>
       <%- body %>
